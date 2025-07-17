@@ -1,7 +1,7 @@
 const readline = require("readline"); // Enable reading input from console
 const fs = require("fs"); // Enable file operations(read/write)
 
-//Musician class - define proprties and method.
+//Musician class - define proprties and method
 class Musician {
   constructor(name, category, skill, cost) {
     this.name = name;
