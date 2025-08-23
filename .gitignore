@@ -1,0 +1,6 @@
+
+# Test outputs
+artifacts/
+*.log
+*.tmp
+coverage/
