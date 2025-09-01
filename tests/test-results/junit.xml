@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="10" failures="0" errors="0" time="0.453">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-09-01T06:12:09" time="0.35" tests="10">
+    <testcase classname=" TC-001 Create Musician (EP): props set" name=" TC-001 Create Musician (EP): props set" time="0.004">
+    </testcase>
+    <testcase classname=" TC-002 Musician.toString() (EP): formatting" name=" TC-002 Musician.toString() (EP): formatting" time="0.001">
+    </testcase>
+    <testcase classname=" TC-003 Create Troupe (EP): empty members; props set" name=" TC-003 Create Troupe (EP): empty members; props set" time="0.002">
+    </testcase>
+    <testcase classname=" TC-004 Add musician (EP)" name=" TC-004 Add musician (EP)" time="0.001">
+    </testcase>
+    <testcase classname=" TC-005 Total cost (EP): sum(costs) * duration" name=" TC-005 Total cost (EP): sum(costs) * duration" time="0.001">
+    </testcase>
+    <testcase classname=" TC-006 Average skill (EP): mean of members" name=" TC-006 Average skill (EP): mean of members" time="0.001">
+    </testcase>
+    <testcase classname=" TC-007 Troupe summary (EP)" name=" TC-007 Troupe summary (EP)" time="0.001">
+    </testcase>
+    <testcase classname=" TC-008 Prediction High (DT): avg &gt;= 8" name=" TC-008 Prediction High (DT): avg &gt;= 8" time="0">
+    </testcase>
+    <testcase classname=" TC-009 Prediction Moderate (DT): 5 &lt;= avg &lt; 8" name=" TC-009 Prediction Moderate (DT): 5 &lt;= avg &lt; 8" time="0.001">
+    </testcase>
+    <testcase classname=" TC-010 Edge: instruments = 0 (BVA): details include &quot;Instruments: 0&quot;" name=" TC-010 Edge: instruments = 0 (BVA): details include &quot;Instruments: 0&quot;" time="0.001">
+    </testcase>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,34 @@
+{
+  "name": "musoplan",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "roots": [
+      "."
+    ],
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "**/MusoPlan.js"
+    ],
+    "coverageReporters": [
+      "text",
+      "lcov"
+    ],
+    "reporters": [
+      "default",
+      [
+        "jest-junit",
+        {
+          "outputDirectory": "test-results",
+          "outputName": "junit.xml"
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-junit": "^16.0.0"
+  }
+}
