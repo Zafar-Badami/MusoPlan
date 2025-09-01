@@ -11,18 +11,18 @@
 
 ## 2. Test Cases
 
-| Test Case ID | User Requirement Tested           | Inputs                               | Expected Outcome                                | Result  |
-| ------------ | --------------------------------- | ------------------------------------ | ----------------------------------------------- | ------- |
-| TC-001       | Create Musician                   | Ava, Guitarist, 9, 120               | Musician object created with correct properties | ✅ Pass |
-| TC-002       | Musician.toString() formatting    | Ava                                  | `"Ava (Guitarist) - Skill: 9, Cost:$120"`       | ✅ Pass |
-| TC-003       | Create Troupe                     | Sunset Trio, Jazz, 3 instruments, 2h | Empty members list, correct troupe properties   | ✅ Pass |
-| TC-004       | Add single musician               | T1 + Ava                             | Members list contains Ava                       | ✅ Pass |
-| TC-005       | Calculate total cost              | T1 + Ava + Ben, duration=2           | (120+100)\*2 = 440                              | ✅ Pass |
-| TC-006       | Calculate average skill           | Ava (9), Ben (6), Cara (4)           | Average skill = 6.33                            | ✅ Pass |
-| TC-007       | Generate troupe summary           | T1 with Ava + Ben                    | `"Sunset Trio: 2 member(s) - Genre: Jazz"`      | ✅ Pass |
-| TC-008       | Predict troupe success (High)     | Avg skill = 8                        | `"Predicted Success: High"`                     | ✅ Pass |
-| TC-009       | Predict troupe success (Moderate) | Avg skill = 7.5                      | `"Predicted Success: Moderate"`                 | ✅ Pass |
-| TC-010       | Edge case: Instruments = 0        | Troupe with 0 instruments            | Report includes `"Instruments: 0"`, no crash    | ✅ Pass |
+| Test Case ID | User Requirement Tested           | Inputs                               | Expected Outcome                                | Result |
+| ------------ | --------------------------------- | ------------------------------------ | ----------------------------------------------- | ------ |
+| TC-001       | Create Musician                   | Ava, Guitarist, 9, 120               | Musician object created with correct properties | Pass   |
+| TC-002       | Musician.toString() formatting    | Ava                                  | `"Ava (Guitarist) - Skill: 9, Cost:$120"`       | Pass   |
+| TC-003       | Create Troupe                     | Sunset Trio, Jazz, 3 instruments, 2h | Empty members list, correct troupe properties   | Pass   |
+| TC-004       | Add single musician               | T1 + Ava                             | Members list contains Ava                       | Pass   |
+| TC-005       | Calculate total cost              | T1 + Ava + Ben, duration=2           | (120+100)\*2 = 440                              | Pass   |
+| TC-006       | Calculate average skill           | Ava (9), Ben (6), Cara (4)           | Average skill = 6.33                            | Pass   |
+| TC-007       | Generate troupe summary           | T1 with Ava + Ben                    | `"Sunset Trio: 2 member(s) - Genre: Jazz"`      | Pass   |
+| TC-008       | Predict troupe success (High)     | Avg skill = 8                        | `"Predicted Success: High"`                     | Pass   |
+| TC-009       | Predict troupe success (Moderate) | Avg skill = 7.5                      | `"Predicted Success: Moderate"`                 | Pass   |
+| TC-010       | Edge case: Instruments = 0        | Troupe with 0 instruments            | Report includes `"Instruments: 0"`, no crash    | Pass   |
 
 ---
 
